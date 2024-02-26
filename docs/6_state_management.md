@@ -7,7 +7,7 @@ Writer: Federico Castañares, Facundo Panizza
 
 Defining how we are going to separate our application layers helps us maintain a clean architecture. The definition may vary depending on the solution we want to achieve, but we define an example:
 
-![app-layers](../images/state-1.png){width="450px"}
+![app-layers](../images/state-1.png)
 
 In this example, we will have several features with their respective views. Each view can have shared or specific components for that feature. These components will control the state of the application, mutating them or simply reading them, using controlled components by props to render their content.
 
@@ -33,7 +33,7 @@ One way to structure the store can be to respect the entities we have in our bac
 
 In this way, each reducer copy of an entity will be separate from each feature and can be reused.
 
-![redux-structure](../images/state-2.png){width="400px"}
+![redux-structure](../images/state-2.png)
 
 ### Controlled components by props
 
